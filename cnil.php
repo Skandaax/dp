@@ -1,7 +1,3 @@
-<?php
-    require "index.php"
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head >
@@ -19,7 +15,7 @@
     <nav class="menu" role="navigation">
         <div class="inner">
             <div class="m-left">
-                <h1 class="logo"><?="$page3t"?></h1>
+                <h1 class="logo">CNIL</h1>
             </div>
             <div class="m-right">
             <a href="index.php?page=accueil" class="m-link">Accueil</a>
@@ -29,25 +25,44 @@
             </div>
         </div>
     </nav>
+
+    <!--Header pour mobile-->
+    <div class="m-nav-toggle">
+        <span class="m-toggle-icon"></span>
+    </div>
+
 </header>
 
 <!--Body-->
 <body role="body">
     <div class="t-body">
         <section>
-            <h1 class="titre-texte"><?="$page3s"?></h1>
+            <h1 class="titre-texte">Garantir la sécurité des données</h1>
                 &nbsp;
             <figcaption >
                 <img src="../articles/img/Logo-cnil.png" alt="Systèmes d'informations" class="imgi">
             </figcaption>
+            <p class="texte-left">
+                Le responsable du fichier est astreint à une obligation de sécurité : 
+                il doit notamment prendre les mesures nécessaires pour garantir la sécurité 
+                des données qu’il a collectées et éviter leur divulgation à des tiers non autorisés.
+            </p>
+            <h1 class="titre-texte">Une approche par les risques</h1>
             &nbsp;
-            <p class="texte-left"><?="$page3c"?></p>
+            <p class="texte-left">
+                Le responsable du fichier doit identifier les risques sur la vie privée
+                des personnes concernées  engendrés par son traitement avant de déterminer 
+                les moyens adéquats pour les réduire. Pour ce faire, il convient d'adopter une
+                vision globale et d'étudier les conséquences sur les personnes concernées.
+            </p>
         </section>
     </div>
 </body>
 
 <!--Footer-->
 <footer role="footer" class="f-footer">
+    <p class="mentions" ><a id="link" href="#">Mentions légales</a> | <a href="#">Politique de confidentialité</a>
+    
     <h6>Copyright &copy 2020</h6></p>
 </footer>
 

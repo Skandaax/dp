@@ -1,7 +1,3 @@
-<?php
-    require "index.php"
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head >
@@ -36,13 +32,13 @@
 <body role="body">
     <div class="t-body">
         <section>
-            <h1 class="titre-texte"><?="$page1t"?></h1>
+            <h1 class="titre-texte">Cybersécurité : la plupart des développeurs ne connaissent pas ce qu'est la sécurité</h1>
                 &nbsp;
             <figcaption >
                 <img src="../articles/img/Hackers-collection-1-fichier-pirate-mails.jpg" alt="Piratage" class="imgi">
             </figcaption>
             <p class="texte-left">
-                <?="$page1c"?>
+                <?="$page1"?>
                 </p>
         </section>
     </div>
@@ -50,6 +46,8 @@
 
 <!--Footer-->
 <footer role="footer" class="f-footer">
+    <p class="mentions" ><a id="link" href="#">Mentions légales</a> | <a href="#">Politique de confidentialité</a>
+    
     <h6>Copyright &copy2020</h6></p>
 </footer>
 
