@@ -15,7 +15,7 @@
     <nav class="menu">
         <div class="inner">
             <div class="m-left">
-                <h1 class="logo">Sécurité</h1>
+                <h1 class="logo"><?="securite"?></h1>
             </div>
             <div class="m-right">
                 <a href="index.php?page=accueil" class="m-link">Accueil</a>
@@ -31,27 +31,14 @@
 <!--Body-->
 <body>
     <div class="t-body">
-        <section>
-            <h1 class="titre-texte">Sécurité des systemes d'informations</h1>
-                &nbsp;
             <figure>
-                <img src="../articles/img/420px-CyberBunker_Data_Center.jpg" alt="Systèmes d'informations" class="imgi">
-            </figure>
-            <p class="texte-left">Aujourd’hui, la sécurité est un enjeu majeur pour les entreprises ainsi que pour l’ensemble des acteurs qui l’entourent. 
-                Elle n'est plus confinée uniquement au rôle de l’informaticien. 
-                Sa finalité sur le long terme est de maintenir la confiance des utilisateurs et des clients. 
-                La finalité sur le moyen terme est la cohérence de l’ensemble du système d’information.
-                Sur le court terme, l’objectif est que chacun ait accès aux informations dont il a besoin. 
-                La norme traitant des SMSI est l’ISO/CEI 27001 qui insiste sur Confidentiality – Integrity – 
-                Availability, c'est-à-dire en français Disponibilité – Intégrité - Confidentialité.
-                </p>
-        </section>
+            <img src="../dp/img/150219_Securite_Enjeu-788x433.jpg" alt="securité" class="imgi" >
+            <figure>
     </div>
 </body>
 
 <!--Footer-->
 <footer  class="f-footer">
-    <p class="mentions" ><a id="link" href="#">Mentions légales</a> | <a href="#">Politique de confidentialité</a>
         <h6>Copyright &copy2020</h6>
     </p>
 </footer>
