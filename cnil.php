@@ -18,10 +18,10 @@
                 <h1 class="logo">CNIL</h1>
             </div>
             <div class="m-right">
-                <a href="../articles/accueil.php" class="m-link">Accueil</a>
-                <a href="../articles/piratage.php" class="m-link">Piratage informatique</a>
-                <a href="../articles/Cybersécurité.php" class="m-link">Cybersécurité</a>
-                <a href="../articles/cnil.php" class="m-link">CNIL</a>
+            <a href="index.php?page=accueil" class="m-link">Accueil</a>
+                <a href="piratage.php?page=piratage" class="m-link">Piratage informatique</a>
+                <a href="cybersecurite.php?page=cybersecurite" class="m-link">Cybersécurité</a>
+                <a href="cnil.php?page=cnil" class="m-link">CNIL</a>
             </div>
         </div>
     </nav>
