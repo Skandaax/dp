@@ -1,3 +1,7 @@
+<?php
+require "index.php";
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head >
@@ -19,9 +23,9 @@
             </div>
             <div class="m-right">
                 <a href="index.php?page=accueil" class="m-link">Accueil</a>
-                <a href="piratage.php?page=piratage" class="m-link">Piratage informatique</a>
-                <a href="cybersecurite.php?page=cybersecurite" class="m-link">Cybersécurité</a>
-                <a href="cnil.php?page=cnil" class="m-link">CNIL</a>
+                <a href="index.php?page=piratage" class="m-link">Piratage informatique</a>
+                <a href="index.php?page=cybersecurite" class="m-link">Cybersécurité</a>
+                <a href="index.php?page=cnil" class="m-link">CNIL</a>
             </div>
         </div>
     </nav>
@@ -32,22 +36,18 @@
 <body role="body">
     <div class="t-body">
         <section>
-            <h1 class="titre-texte">Cybersécurité : la plupart des développeurs ne connaissent pas ce qu'est la sécurité</h1>
+            <h1 class="titre-texte"><?="$page1s"?></h1>
                 &nbsp;
             <figcaption >
                 <img src="../articles/img/Hackers-collection-1-fichier-pirate-mails.jpg" alt="Piratage" class="imgi">
             </figcaption>
-            <p class="texte-left">
-                <?="$page1"?>
-                </p>
+            <p class="texte-left"><?="$page1c"?></p>
         </section>
     </div>
 </body>
 
 <!--Footer-->
 <footer role="footer" class="f-footer">
-    <p class="mentions" ><a id="link" href="#">Mentions légales</a> | <a href="#">Politique de confidentialité</a>
-    
     <h6>Copyright &copy2020</h6></p>
 </footer>
 

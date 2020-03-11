@@ -1,6 +1,5 @@
 <?php
-require "index.php";
-
+    require "index.php"
 ?>
 
 <!DOCTYPE html>
@@ -8,7 +7,7 @@ require "index.php";
 <head >
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>CNIL</title>
+    <title>Cybersécurité</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="header.css">
 
@@ -20,7 +19,7 @@ require "index.php";
     <nav class="menu" role="navigation">
         <div class="inner">
             <div class="m-left">
-                <h1 class="logo"><?php="$page3t"?></h1>
+                <h1 class="logo"><?="$page2t"?></h1>
             </div>
             <div class="m-right">
                 <a href="index.php?page=accueil" class="m-link">Accueil</a>
@@ -37,12 +36,12 @@ require "index.php";
 <body role="body">
     <div class="t-body">
         <section>
-            <h1 class="titre-texte"><?="$page3s"?></h1>
+            <h1 class="titre-texte"><?="$page2s"?></h1>
                 &nbsp;
             <figcaption >
-                <img src="../articles/img/Logo-cnil.png" alt="Systèmes d'informations" class="imgi">
+                <img src="../articles/img/securite.gif" alt="Systèmes d'informations" class="imgi">
             </figcaption>
-            <p class="texte-left"><?="$page3c"?></p>
+            <p class="texte-left"><?="$page2c"?></p>
         </section>
     </div>
 </body>
